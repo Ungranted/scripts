@@ -1,0 +1,11 @@
+local g = game.PlaceId
+
+if g == 7809570930 then -- Fling game
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Ungranted/scripts/refs/heads/main/FlingGame"))()
+
+elseif g == 13704594433 then -- Storage
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Ungranted/scripts/refs/heads/main/Storage"))()
+
+else
+    print("theres no script for this game")
+end
