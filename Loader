@@ -6,6 +6,12 @@ if g == 7809570930 then -- Fling game
 elseif g == 13704594433 then -- Storage
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Ungranted/scripts/refs/heads/main/Storage"))()
 
+lseif g == 3582763398 then -- ToH Pro
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Ungranted/scripts/refs/heads/main/ToH))()
+
+lseif g == 1962086868 then -- ToH 
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Ungranted/scripts/refs/heads/main/ToH"))()
+
 else
     print("theres no script for this game")
 end
